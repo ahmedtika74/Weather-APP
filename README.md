@@ -27,7 +27,9 @@ A modern, fully responsive weather dashboard that provides real-time weather dat
 
 ## 📁 Project Structure
 src/ 
+
 ├── api/ 
+
 │ └── weather.js  
 ├── components/ 
 │ ├── LiveData.jsx  
