@@ -41,7 +41,7 @@ src/
 ## 🚀 Getting Started
 1. **Clone the repo**
   ```
-   git clone https://github.com/YOUR_USERNAME/weather-dashboard.git
+   git clone https://github.com/ahmedtika74/Weather-APP.git
    cd weather-dashboard
   ```
 2. Install dependencies
