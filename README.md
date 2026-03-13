@@ -1,55 +1,16 @@
-# 🌦️ Weather Dashboard
+# React + Vite
 
-A modern, fully responsive weather dashboard that provides real-time weather data, 5-day forecasts, and atmospheric details for any city worldwide.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-[Live Demo]()
+Currently, two official plugins are available:
 
-![React](https://img.shields.io/badge/React-19-blue?logo=react)
-![Vite](https://img.shields.io/badge/Vite-7-purple?logo=vite)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?logo=tailwindcss)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## ✨ Features
+## React Compiler
 
-- 🌍 **Auto Location Detection** — Automatically fetches weather for your current location using the Geolocation API
-- 🔍 **City Search** — Search weather for any city worldwide
-- 📅 **5-Day Forecast** — View upcoming weather conditions at a glance
-- 🌅 **Sunrise & Sunset** — Displays daily sunrise and sunset times
-- 🌡️ **Detailed Metrics** — Feels like temperature, pressure, humidity, and wind speed
-- 📱 **Fully Responsive** — Optimized for mobile, tablet, and desktop screens
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Tech Stack
+## Expanding the ESLint configuration
 
-- **React 19** — UI components with hooks
-- **Vite 7** — Fast build tool and dev server
-- **Tailwind CSS v4** — Utility-first styling
-- **Axios** — HTTP client for API requests
-- **OpenWeatherMap API** — Weather and geolocation data
-
-## 📁 Project Structure
-```
-src/ 
-├── api/ 
-│ └── weather.js  
-├── components/ 
-│ ├── LiveData.jsx  
-│ └── OverAllData.jsx 
-├── App.jsx 
-├── App.css  
-├── index.css 
-└── main.jsx 
-```
-## 🚀 Getting Started
-1. **Clone the repo**
-  ```
-   git clone https://github.com/ahmedtika74/Weather-APP.git
-   cd weather-dashboard
-  ```
-2. Install dependencies
-  ```
-  npm install
-  ```
-3. Run the dev server
-  ```
-  npm run dev
-  ```
-4. Open http://localhost:5173 in your browser
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
