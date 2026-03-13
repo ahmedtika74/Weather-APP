@@ -3,6 +3,7 @@
 A modern, fully responsive weather dashboard that provides real-time weather data, 5-day forecasts, and atmospheric details for any city worldwide.
 
 [Live Demo]()
+
 ![React](https://img.shields.io/badge/React-19-blue?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-7-purple?logo=vite)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?logo=tailwindcss)
