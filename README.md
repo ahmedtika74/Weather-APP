@@ -26,10 +26,9 @@ A modern, fully responsive weather dashboard that provides real-time weather dat
 - **OpenWeatherMap API** — Weather and geolocation data
 
 ## 📁 Project Structure
+```
 src/ 
-
 ├── api/ 
-
 │ └── weather.js  
 ├── components/ 
 │ ├── LiveData.jsx  
@@ -38,13 +37,13 @@ src/
 ├── App.css  
 ├── index.css 
 └── main.jsx 
-
+```
 ## 🚀 Getting Started
 1. **Clone the repo**
-   ```
+  ```
    git clone https://github.com/YOUR_USERNAME/weather-dashboard.git
    cd weather-dashboard
-   ```
+  ```
 2. Install dependencies
   ```
   npm install
